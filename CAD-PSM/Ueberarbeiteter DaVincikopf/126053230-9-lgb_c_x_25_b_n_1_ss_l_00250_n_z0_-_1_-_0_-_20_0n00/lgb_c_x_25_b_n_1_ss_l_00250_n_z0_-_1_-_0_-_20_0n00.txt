@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"34-17012016-094655";"";
+"REFERENCE";"LGB C X 25 B N 1 SS L 00250 N Z0 - 1 - 0 - 20.0N";"";
+"NOTE";"Schiene: LGBR 25 L 00250 N 1 - 0 - 20.0N";"";
+"TraceParts.PartTitle";"Linearführungen LGBCX - B";"";
+"TraceParts.InstanceId";"34-17012016-0946553VOTEDBU3YMNPI81DR9SWMD3S";"";
+"QUANTITY1";"1";"";
+"SUPPLIER";"NTN-SNR Roulements";"";
+"DESIGN";"Linearführungen LGBCX - B";"";
+"NOTE1";"Führungswagen: LGB C X 25 B N SS N Z0-N";"";
+"TraceParts.PartVersion";"1.1.5";"";
+"TraceParts.PartLanguage";"de";"";
+"QUANTITY";"1";"";

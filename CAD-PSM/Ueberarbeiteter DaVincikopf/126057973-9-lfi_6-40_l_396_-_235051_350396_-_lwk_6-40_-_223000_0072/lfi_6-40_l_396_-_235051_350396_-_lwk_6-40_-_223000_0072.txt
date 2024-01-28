@@ -1,0 +1,9 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"30-08032016-071819";"";
+"REFERENCE";"LFI 6-40 L=396 - 235051 350396 - LWK 6-40 - 223000 0072";"";
+"TraceParts.PartTitle";"Linearführungsschiene LFI-6-40";"";
+"TraceParts.InstanceId";"30-08032016-071819ESEO346ZL4G6LL4W8HRU5J6IO";"";
+"SUPPLIER";"isel Germany AG";"";
+"DESIGN";"Linearführungsschiene LFI-6-40";"";
+"TraceParts.PartVersion";"1.0.4";"";
+"TraceParts.PartLanguage";"de";"";

@@ -1,0 +1,11 @@
+<Presets Version="1">
+  <Preset Name="Simple Hole_Drilled_3 mm" ID="fe0f2f32-8c90-48db-8207-300d04e46525" MruTime="2023-07-19 10:28:49" MrmTime="2023-07-19 10:28:49">
+    <HoleType Value="IDC_HOLE_SIMPLE_BTN" />
+    <SeatType Value="IDC_HOLE_DRILL_BTN" />
+    <Termination Value="IDC_HOLE_THROUGH_ALL" />
+    <IMate Value="False" />
+    <ExtendStart Value="False" />
+    <Diameter Value="3 mm" />
+    <DrillAngle Value="118 deg" />
+  </Preset>
+</Presets>
