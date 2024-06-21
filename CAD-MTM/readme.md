@@ -1,4 +1,4 @@
-# CAD of the patient side manipulator
+# CAD of the Master Tool Manipulator
 
 This folder provides mechanical assembly and CAD drawings.
 
