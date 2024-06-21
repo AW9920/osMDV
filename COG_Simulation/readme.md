@@ -1,4 +1,6 @@
-# COG Calculation MTM
+# COG Simulation
+This section provides MATLAB files to calculate the center of gravity of the PSM and MTM throughout their workspace
+## COG Calculation MTM
 
 Based on the following mechanical schematic, the position of the MTM's COG is computed as a function of its joint values q1 to q3  
 
@@ -8,7 +10,7 @@ The COG of each link as a function of its corresponding joint values is given be
 
 <img src="https://github.com/AW9920/osMDV/assets/61975888/98e6996f-b27e-406e-a9b0-b74176bac401" alt="COG locations as function of joint values" width="500px">  
 
-# COG Calculation PSM
+## COG Calculation PSM
 
 The positions of the PSM's COGs are computed as a function of its corresponding joint values  
 
