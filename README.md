@@ -1,4 +1,6 @@
 # Open-Source Desktop Teleoperated Surgical Training System
+![image](https://github.com/AW9920/osMDV/assets/76056168/466618e0-05de-4815-afaa-288cf0a57a3f)
+
 
 Welcome to the repository for the **Open-Source Desktop Teleoperated Surgical Training System**. This project provides cost-efficient and accessible resources for a surgical training system, designed to help acquire manipulative skills and serve as a framework for validating emerging technologies.
 
