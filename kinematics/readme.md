@@ -86,3 +86,7 @@ The discs of the surgical instrument must be actuated properly to authentically 
 ##  Correlation Matrix
 The transmission rate between the disc number and corresponding joint values are estimated and listed below.
 
+![image](https://github.com/AW9920/osMDV/assets/61975888/d67d23ee-0b7b-4b39-b5b7-beb7a7c87f9c)
+
+![image](https://github.com/AW9920/osMDV/assets/61975888/1632ed0d-2921-4187-8243-175905896806)
+
