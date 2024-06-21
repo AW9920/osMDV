@@ -47,7 +47,6 @@ the second equation poses numerical values resulting from the transformation of 
 
 ### Matrices
 
-#### Matrix \( ^3R_6 \):
 $$
 ^3R_6 = \begin{bmatrix}
 -c_4 c_6 - s_4 s_5 s_6 & -s_4 c_5 & c_4 s_6 + s_4 s_5 c_6 \\
@@ -56,27 +55,25 @@ s_4 c_6 + c_4 s_5 s_6 & c_4 c_5 & s_4 s_6 + c_4 s_5 c_6 \\
 \end{bmatrix}
 $$
 
-#### Matrix \( ^0R_3^{-1} \cdot ^0R_6 \):
-
-\[
+$$
 ^0R_3^{-1} \cdot ^0R_6 = \begin{bmatrix}
 r_{11} & r_{12} & r_{13} \\
 r_{21} & r_{22} & r_{23} \\
 r_{31} & r_{32} & r_{33}
 \end{bmatrix}
-\]
+$$
 
 
 
 Based on the detailed notation, it is determined that joint values q4, q5, and q6 can be estimated according to the equations listed below.
 
-
+$$
 \[ q_4 = \arctan2\left(-\frac{r_{12}}{c_5}, \frac{r_{22}}{c_5}\right) \]
 
 \[ q_5 = \arctan2\left(r_{32}, \pm\sqrt{(r_{12})^2 + (r_{22})^2}\right) \]
 
 \[ q_6 = \arctan2\left(-\frac{r_{31}}{c_5}, -\frac{r_{33}}{c_5}\right) \]
-
+$$
 
 # Interpretation of Disk Rotation
 
