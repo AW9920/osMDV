@@ -1,4 +1,10 @@
+# CAD of Patient Side Manipulator
 
+This folder provides mechanical assembly and CAD drawings of the PSM.
+
+## Overview
+
+This section of the repository focuses on the mechanical aspects of the teleoperated surgical training system, including the PSM. These components are designed to be affordable and easy to assemble, reducing the entry barrier for research and educational purposes.
 The PSM is based on the DaVinci Classic system and features a double parallelogram mechanism for precise motion replication.
 
 **Components:**
