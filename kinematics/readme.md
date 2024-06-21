@@ -48,12 +48,13 @@ the second equation poses numerical values resulting from the transformation of 
 ### Matrices
 
 #### Matrix \( ^3R_6 \):
-
-$^3R_6 = \begin{bmatrix}
+\begin{equation}
+^3R_6 = \begin{bmatrix}
 -c_4 c_6 - s_4 s_5 s_6 & -s_4 c_5 & c_4 s_6 + s_4 s_5 c_6 \\
 s_4 c_6 + c_4 s_5 s_6 & c_4 c_5 & s_4 s_6 + c_4 s_5 c_6 \\
 -c_5 s_6 & s_5 & -c_5 c_6
-\end{bmatrix}$
+\end{bmatrix}
+\end{equation}
 
 #### Matrix \( ^0R_3^{-1} \cdot ^0R_6 \):
 
