@@ -45,6 +45,10 @@ l_Y2T   = 10.10 mm
 The analytical form of 3R6 is derived from the DH parameters of the PSM, whereas the elements of the matrix depicted in
 the second equation poses numerical values resulting from the transformation of IMU values in Rotation Matrix form (0R6).
 
+### Matrices
+
+#### Matrix \( ^3R_6 \):
+
 \[
 ^3R_6 = \begin{bmatrix}
 -c_4 c_6 - s_4 s_5 s_6 & -s_4 c_5 & c_4 s_6 + s_4 s_5 c_6 \\
@@ -53,6 +57,8 @@ s_4 c_6 + c_4 s_5 s_6 & c_4 c_5 & s_4 s_6 + c_4 s_5 c_6 \\
 \end{bmatrix}
 \]
 
+#### Matrix \( ^0R_3^{-1} \cdot ^0R_6 \):
+
 \[
 ^0R_3^{-1} \cdot ^0R_6 = \begin{bmatrix}
 r_{11} & r_{12} & r_{13} \\
@@ -60,6 +66,7 @@ r_{21} & r_{22} & r_{23} \\
 r_{31} & r_{32} & r_{33}
 \end{bmatrix}
 \]
+
 
 
 Based on the detailed notation, it is determined that joint values q4, q5, and q6 can be estimated according to the equations listed below.
