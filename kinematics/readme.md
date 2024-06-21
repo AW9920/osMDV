@@ -45,23 +45,32 @@ l_Y2T   = 10.10 mm
 The analytical form of 3R6 is derived from the DH parameters of the PSM, whereas the elements of the matrix depicted in
 the second equation poses numerical values resulting from the transformation of IMU values in Rotation Matrix form (0R6).
 
-3R6 =  
-[-c4 * c6 - s4 * s5 * s6, -s4 * c5, c4 * s6 + s4 * s5 * c6]  
-[s4 * c6 + c4 * s5 * s6, c4 * c5, s4 * s6 + c4 * s5 * c6]  
-[-c5 * s6, s5, -c5 * c6]
+\[
+^3R_6 = \begin{bmatrix}
+-c_4 c_6 - s_4 s_5 s_6 & -s_4 c_5 & c_4 s_6 + s_4 s_5 c_6 \\
+s_4 c_6 + c_4 s_5 s_6 & c_4 c_5 & s_4 s_6 + c_4 s_5 c_6 \\
+-c_5 s_6 & s_5 & -c_5 c_6
+\end{bmatrix}
+\]
 
-0R3^(-1) * 0R6 =  
-[r11, r12, r13]  
-[r21, r22, r23]  
-[r31, r32, r33]  
+\[
+^0R_3^{-1} \cdot ^0R_6 = \begin{bmatrix}
+r_{11} & r_{12} & r_{13} \\
+r_{21} & r_{22} & r_{23} \\
+r_{31} & r_{32} & r_{33}
+\end{bmatrix}
+\]
+
 
 Based on the detailed notation, it is determined that joint values q4, q5, and q6 can be estimated according to the equations listed below.
 
-q_4 = arctan2(-r12/c5, r22/c5)
 
-q_5 = arctan2(r32, ±sqrt((r12)^2 + (r22)^2))
+\[ q_4 = \arctan2\left(-\frac{r_{12}}{c_5}, \frac{r_{22}}{c_5}\right) \]
 
-q_6 = arctan2(-r31/c5, -r33/c5)
+\[ q_5 = \arctan2\left(r_{32}, \pm\sqrt{(r_{12})^2 + (r_{22})^2}\right) \]
+
+\[ q_6 = \arctan2\left(-\frac{r_{31}}{c_5}, -\frac{r_{33}}{c_5}\right) \]
+
 
 # Interpretation of Disk Rotation
 
