@@ -1,4 +1,4 @@
-# CAD of Open-Source Desktop Teleoperated Surgical Training System
+# CAD of the patient side manipulator
 
 This folder provides mechanical assembly and CAD drawings.
 
