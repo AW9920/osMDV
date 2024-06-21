@@ -70,9 +70,11 @@ Based on the detailed notation, it is determined that joint values q4, q5, and q
 $$
  q_4 = \arctan2\left(-\frac{r_{12}}{c_5}, \frac{r_{22}}{c_5}\right) 
 $$
+
 $$
 q_5 = \arctan2\left(r_{32}, \pm\sqrt{(r_{12})^2 + (r_{22})^2}\right) 
 $$
+
 $$
 q_6 = \arctan2\left(-\frac{r_{31}}{c_5}, -\frac{r_{33}}{c_5}\right) 
 $$
