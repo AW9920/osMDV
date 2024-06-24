@@ -27,7 +27,7 @@ The robotic arm system incorporates sensors and controllers to detect movements 
 ![image](https://github.com/AW9920/osMDV/assets/76056168/8caa71ce-837c-4679-90d1-c0537a82bebb)
 
 
-# Electrical Component PSM
+# Electronics PSM
 
 ## General Description of the Electrical Setup
 The MTM detects movements in 7 dimensions of freedom. Consequently, the PSM requires 7 motors to replicate these movements. Servo motors, which have integrated position control, are utilized for wrist movements. For the outer yaw, pitch, and insertion, DC motors are employed, and these motors need additional encoders for position control. To calibrate the encoders, the PSM uses limit switches to detect the end positions.
